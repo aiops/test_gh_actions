@@ -36,6 +36,6 @@ jobs:
           build-args: |
             GITHUB_TOKEN: ${{ secrets.MACHINE_ACCESS_TOKEN }}
             LOGSIGHT_LIB_VERSION: $LOGSIGHT_LIB_VERSION
-          tags: ${DOCKER_REPO}:${{ github.ref_name }}
+          tags: ${{ DOCKER_REPO }}:${{ github.ref_name }}
 
 
