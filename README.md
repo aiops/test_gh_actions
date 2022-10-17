@@ -145,3 +145,4 @@ token: 123456789
 
 Notice that if no config file is specified, `cr.yaml` (or any of the supported formats) is loaded from the current directory, `$HOME/.cr`, or `/etc/cr`, in that order, if found.
 # test_gh_actions
+# test_gh_actions
