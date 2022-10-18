@@ -11,7 +11,7 @@ from logsight_sdk.logger import LogsightLogger
 # hello world
 from logsight_pipeline.configs.globals import path
 from logsight_pipeline.configs.configuration import PipelineConfig
-from logsight_sdk.logger.configuration import LogConfig
+from logsight.logger.configuration import LogConfig
 from builders.pipeline_builder import PipelineBuilder
 from logsight.services.service_provider import ServiceProvider
 
