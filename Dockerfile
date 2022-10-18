@@ -15,7 +15,7 @@ COPY ./requirements.txt .
 # install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install "git+https://$GITHUB_TOKEN@github.com/aiops/logsight.git@$LOGSIGHT_LIB_VERSION"
-RUN pip install "git+https://github.com/aiops/logsight-sdk-py/tree/develop"
+RUN pip install "git+https://github.com/aiops/logsight-sdk-py.git@develop"
 
 # copy code
 COPY ./logsight_pipeline logsight_pipeline
