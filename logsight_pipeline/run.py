@@ -16,8 +16,9 @@ from builders.pipeline_builder import PipelineBuilder
 from logsight.services.service_provider import ServiceProvider
 
 logging.config.dictConfig(LogConfig().config)
-EMAIL = os.getenv('LOGSIGHT_EMAIL')
-PASSWORD = os.getenv('LOGSIGHT_PASSWORD')
+EMAIL = "sashonedelkoski@gmail.com"
+PASSWORD = "sasho123"
+# PASSWORD = os.getenv('LOGSIGHT_PASSWORD')
 env_tags = get_tags_from_env()  # {"service": "redis"}
 set_host("https://logsight.ai/api/v1/")
 auth = LogsightAuthentication(email=EMAIL, password=PASSWORD)
