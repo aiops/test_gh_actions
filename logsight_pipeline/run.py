@@ -4,14 +4,14 @@ import platform
 import sys
 from multiprocessing import set_start_method
 
-from logsight.authentication import LogsightAuthentication
-from logsight.config import get_tags_from_env, set_host
-from logsight.logger import LogsightLogger
+from logsight_sdk.authentication import LogsightAuthentication
+from logsight_sdk.config import get_tags_from_env, set_host
+from logsight_sdk.logger import LogsightLogger
 
 # hello world
 from logsight_pipeline.configs.globals import path
 from logsight_pipeline.configs.configuration import PipelineConfig
-from logsight.logger.configuration import LogConfig
+from logsight_sdk.logger.configuration import LogConfig
 from builders.pipeline_builder import PipelineBuilder
 from logsight.services.service_provider import ServiceProvider
 
