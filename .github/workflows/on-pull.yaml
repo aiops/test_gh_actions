@@ -1,6 +1,9 @@
 name: Build Pipeline
 
-on: [push]
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
 
 jobs:
   test:
