@@ -46,7 +46,7 @@ jobs:
           path: ./sdk
       
       - name: Install dependencies
-        run: python -m pip install -r ./sdk/requirements.txt
+        run: python -m pip install -r ./sdk/requirements-dev.txt
 
       - name: Run tox
         run: |
