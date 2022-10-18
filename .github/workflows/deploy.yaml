@@ -21,6 +21,7 @@ jobs:
           repository: aiops/logsight-deployment
           token: ${{ secrets.MACHINE_ACCESS_TOKEN }}
           path: ./deploy
+          submodules: true
 
       -
         name: Run deploy preprod
