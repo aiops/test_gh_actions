@@ -20,6 +20,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: aiops/logsight-deployment
+          ref: v1.3.0
           token: ${{ secrets.MACHINE_ACCESS_TOKEN }}
           path: ./deploy
           submodules: true
