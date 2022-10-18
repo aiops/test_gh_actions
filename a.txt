@@ -1,0 +1,5 @@
+kldidas,.djask
+dsakdlsjalkdjs
+daksjdklajslkd
+LOGSIGHT_TAG_VERSION=1
+LOGSIGHT_TAG_REPOSITORY=mine

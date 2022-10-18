@@ -27,7 +27,7 @@ jobs:
           submodules: true
       - name: Run deploy preprod
         run: |
-          env >> ./deploy/deploy/deployment/docker-compose/docker-compose/.env
+          env | grep LOGSIGHT_TAG >> ./deploy/deploy/deployment/docker-compose/docker-compose/.env
           cat ./deploy/deploy/deployment/docker-compose/docker-compose/.env
           ./deploy/deploy/run-local.sh
       - name: Check docker
