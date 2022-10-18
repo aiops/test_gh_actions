@@ -27,4 +27,4 @@ jobs:
         run: ls ./deploy/deploy
       - 
         name: Test
-        run: ./deploy/deploy/run_web_preprod.sh
+        run: ./deploy/deploy/run-web-preprod.sh
