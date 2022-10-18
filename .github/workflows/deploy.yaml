@@ -12,7 +12,7 @@ jobs:
     env:
       DOCKER_REPO: logsight/logsight-pipeline
       LOGSIGHT_LIB_VERSION: v1.3.0
-      LOGSIGHT_IMAGE_TAG_LOGSIGHT_PIPELINE: ${{ github.ref_name }}
+      DOCKER_IMAGE_TAG_LOGSIGHT_PIPELINE: ${{ github.ref_name }}
 
     steps:
       -
@@ -31,3 +31,6 @@ jobs:
       - 
         name: Test
         run: ./deploy/deploy/run-web-preprod.sh
+      - 
+        name: Test
+        run: env | grep PIPELINE
