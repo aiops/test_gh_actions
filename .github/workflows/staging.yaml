@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
   
 jobs:
-  push_to_registry:
-    name: Push Docker image to Docker Hub
+  deploy_staging:
+    name: Deploy docker images to staging
     runs-on: ubuntu-latest
     env:
       DOCKER_REPO: logsight/logsight-pipeline
