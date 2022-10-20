@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://json.schemastore.org/github-workflow.json": "file:///Users/pilijevski/work/logsight/test_gh_actions/.github/workflows/deploy.yaml"
-    }
-}
